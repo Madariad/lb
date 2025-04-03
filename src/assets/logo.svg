@@ -1,0 +1,10 @@
+<svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон логотипа -->
+  <rect width="300" height="80" fill="white"/>
+  <!-- Геометрическая фигура -->
+  <circle cx="40" cy="40" r="30" fill="#007BFF"/>
+  <!-- Текст логотипа -->
+  <text x="80" y="50" font-family="Arial, sans-serif" font-size="20" fill="#333">
+    Algorithmic Learning Lab
+  </text>
+</svg>
