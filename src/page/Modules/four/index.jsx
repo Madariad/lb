@@ -13,7 +13,7 @@ export default function Four() {
   return (
     <>
       <div className='pt-16'>
-          {/* Заголовок страницы */}
+       
           <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">
         Окружность. Геометрические построения.
       </h1>

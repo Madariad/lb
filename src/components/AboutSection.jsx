@@ -6,7 +6,7 @@ const AboutSection = () => {
     <section className="py-16 bg-gray-50" id="about">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
-          {/* Иллюстрация платформы */}
+
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
   <img 
     src="https://img.freepik.com/free-photo/3d-student-graduation-cap-books-stack_107791-15667.jpg?ga=GA1.1.1799459352.1740832846&semt=ais_hybrid" 
@@ -14,7 +14,7 @@ const AboutSection = () => {
     className="w-full h-auto rounded-2xl" 
   />
 </div>
-          {/* Текстовое описание */}
+       
           <div className="w-full md:w-1/2 md:pl-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               О платформе

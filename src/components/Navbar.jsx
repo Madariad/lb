@@ -34,7 +34,7 @@ const Header = () => {
             Контакты
           </a>  */}
         </nav>
-        {/* Кнопки регистрации и входа для десктопа */}
+
         <div className="hidden md:flex items-center space-x-4">
           <Link
             to="/"

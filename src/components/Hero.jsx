@@ -13,9 +13,9 @@ const HeroSection = () => {
         loop
         muted
       /> */}
-      {/* Градиентное наложение – помогает сделать текст читаемым и добавляет стиль */}
+  
       <div className="absolute top-0 left-0 w-full h-full " style={{backgroundColor: "oklch(0.18 0.08 258.31)"}}></div>
-      {/* Контент – центрированный блок с заголовком, подзаголовком и призывами к действию */}
+  
       <div className="relative z-10 px-4">
         <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4">
           Algorithmic  Lab
