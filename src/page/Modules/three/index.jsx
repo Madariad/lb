@@ -4,7 +4,7 @@ import pic2 from '../../../assets/img/Picture2.png'
 import pic3 from '../../../assets/img/Picture3.png'
 import pic4 from '../../../assets/img/Picture3.png'
 
-
+import Coments from '../../../components/Coments';
 
 
 
@@ -140,6 +140,7 @@ export default function index() {
     </ul>
   </div>
 </div>
+<Coments subject={3}/>  
 </div>
 
 

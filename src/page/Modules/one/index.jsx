@@ -10,6 +10,9 @@ import pic15 from '../../../assets/img/Picture15.png'
 import pic16 from '../../../assets/img/Picture16.png'
 
 
+import Coments from '../../../components/Coments';
+
+
 
 export default function One() {
 
@@ -207,6 +210,7 @@ export default function One() {
   </div>
 </div>
 
+  <Coments subject={1}/>
 </div>
         
             
@@ -216,7 +220,6 @@ export default function One() {
 
           
        
-
       
 
       </div>

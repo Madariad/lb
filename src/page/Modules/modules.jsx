@@ -39,7 +39,7 @@ return (
             {modulesList.map((module) => (
                 <div 
                     key={module.id} 
-                    className="bg-gradient-to-br from-white to-gray-100 w-72 h-44 p-6 rounded-xl shadow-lg flex flex-col justify-between transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+                    className="bg-gradient-to-br from-white to-gray-100 w-72 h-54 p-6 rounded-xl shadow-lg flex flex-col justify-between transform transition duration-300 hover:scale-105 hover:shadow-2xl"
                 >
                     <h2 
                         className="text-xl text-gray-700 font-medium text-center truncate" 
@@ -51,8 +51,16 @@ return (
                         className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors cursor-pointer"
                         onClick={() => handleClick(module.route)}
                     >
-                        Перейти
+                        Изучить модуль
                     </button>
+                    <a 
+                    style={{textAlign: 'center'}}
+                        className="px-4 py-2  bg-[#3a942ae8] text-white rounded hover:bg-[#2d5d25b3] transition-colors cursor-pointer"
+                        href={module.test_link}
+                        target="_blank"
+                    >
+                        Пройти тест
+                    </a>
                 </div>
             ))}
         </div>

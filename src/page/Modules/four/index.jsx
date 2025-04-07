@@ -7,6 +7,7 @@ import pic8 from '../../../assets/img/Picture8.png';
 import pic9 from '../../../assets/img/Picture9.png';
 
 
+import Coments from '../../../components/Coments';
 
 
 export default function Four() {
@@ -150,6 +151,8 @@ export default function Four() {
           Проверьте свою работу по ссылке: <a href="https://www.geogebra.org/m/ej8yytbn" className="text-blue-500 underline">https://www.geogebra.org/m/ej8yytbn</a>
         </p>
       </div>
+      
+      <Coments subject={4}/>  
     </div>
     </>
   );
