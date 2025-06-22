@@ -6,7 +6,7 @@ import pic4 from '../../../assets/img/Picture3.png'
 
 import Coments from '../../../components/Coments';
 
-
+import LinesRelationshipExplorer from './graph/LinesRelationshipExplorer'
 
 export default function index() {
   return (
@@ -129,6 +129,9 @@ export default function index() {
       </ul>
     </li>
   </ol>
+
+
+  <LinesRelationshipExplorer />
   {/* Выводы */}
   <div className="mt-6">
     <h4 className="text-xl font-semibold text-gray-800 mb-2">Выводы</h4>

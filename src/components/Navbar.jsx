@@ -101,7 +101,7 @@ const Header = () => {
             Модули
           </Link>
           </div>
-            <div className="pt-2">
+            {/* <div className="pt-2">
               <Link
                 to="/register"
                 className="block w-full text-center px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-50 transition"
@@ -114,7 +114,7 @@ const Header = () => {
               >
                 Вход
               </Link>
-            </div>
+            </div> */}
           </div>
         </nav>
       )}

@@ -1,6 +1,7 @@
 import React from 'react';
 import ph1 from '../../../assets/img/ph1.png'
 import Coments from '../../../components/Coments';
+import TriangleExplorer from './graph/TriangleExplorer'
 export default function Two() {
   return (
     <>
@@ -302,6 +303,7 @@ export default function Two() {
     Треугольник АВС – равнобедренный (АВ = АС). ВМ – медиана. DE = AC, KL = MB. Постройте равнобедренный треугольник DEK с равными боковыми сторонами KD и DE, в котором отрезок KL был бы медианой. Используйте динамическую модель. Докажите равенство треугольников.
   </p>
 </div>
+<TriangleExplorer />
 <Coments subject={2}/>  
   </div>
   </>

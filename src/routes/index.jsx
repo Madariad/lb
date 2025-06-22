@@ -4,13 +4,17 @@ import MainPage from "../page/index";
 import Home from "../page/Dashboard/index";
 import Module from "../page/Modules/index";
 import Modules from "../page/Modules/modules";
-import Details from "../page/Modules/details";
 import ErrorPage from "../page/ErrorPage";
 
 import One from "../page/Modules/one";
 import Two from "../page/Modules/two";
 import Three from "../page/Modules/three";
 import Four from "../page/Modules/four";
+
+import OneTheme from "../page/Modules/one/one";
+import TwoTheme from "../page/Modules/one/two";
+import ThreeTheme from "../page/Modules/one/three";
+
 
 const routes = [
   {
@@ -63,6 +67,21 @@ const routes = [
         element: <Four />,
         errorElement: <ErrorPage />,
       },
+      {
+        path: "1/one/1",
+        element: <OneTheme />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "1/one/2",
+        element: <TwoTheme />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "1/one/3",
+        element: <ThreeTheme />,
+        errorElement: <ErrorPage />,
+      }
     ],
   },
 ];

@@ -9,6 +9,7 @@ import pic9 from '../../../assets/img/Picture9.png';
 
 import Coments from '../../../components/Coments';
 
+import CircleConstructionExplorer from './graph/CircleConstructionExplorer'
 
 export default function Four() {
   return (
@@ -92,7 +93,7 @@ export default function Four() {
           </li>
         </ul>
       </div>
-
+      <CircleConstructionExplorer />
 
       <div className="mb-8 p-6 border border-gray-300 rounded-lg bg-gray-50 shadow-md">
         <h2 className="text-2xl font-bold text-blue-600 mb-4">Вопросы</h2>
