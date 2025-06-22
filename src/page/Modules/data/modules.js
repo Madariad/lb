@@ -35,6 +35,16 @@ const modulesList = [
     route: '4',
     test_link: 'https://quizizz.com/join/quiz/5dfa57243f7eae001be5b0d8/start?studentShare=true',
   }
+  ,
+  {
+    id:5,
+    title: 'Взаимное расположение двух окружностей',
+    content: "Взаимное расположение двух окружностей",
+    video: "https://youtu.be/example_circle",
+    desmos_link: "https://www.desmos.com/calculator?example=4",
+    route: '5',
+    test_link: 'https://wayground.com/admin/quiz/607742a5b84351001b3242ac/vzaimnoe-raspolozhenie-pryamyh-i-okruzhnostej?source=quiz_share',
+  }
 ]
 
 export default modulesList;

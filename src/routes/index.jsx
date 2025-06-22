@@ -10,6 +10,8 @@ import One from "../page/Modules/one";
 import Two from "../page/Modules/two";
 import Three from "../page/Modules/three";
 import Four from "../page/Modules/four";
+import Five from "../page/Modules/five";
+
 
 import OneTheme from "../page/Modules/one/one";
 import TwoTheme from "../page/Modules/one/two";
@@ -65,6 +67,11 @@ const routes = [
       {
         path: "4",
         element: <Four />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "5",
+        element: <Five />,
         errorElement: <ErrorPage />,
       },
       {
